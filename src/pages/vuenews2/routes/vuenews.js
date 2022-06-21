@@ -4,6 +4,7 @@ import VueRouter from 'vue-router';
 
 import AppView from '../App.vue';
 import UserView from '../views/UserView.vue';
+import ListView from '../views/ListView.vue';
 
 Vue.use(VueRouter);
 
@@ -17,7 +18,7 @@ export const router = new VueRouter({
         {
           path: '/vuenews2/news',
           name: 'news',
-          component: AppView,
+          component: ListView,
         },
         {
           path: '/vuenews2/user/:id',
