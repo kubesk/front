@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-import CartView from '../views/CartView.vue';
-import DetailView from '../views/DetailView.vue';
+import CartView from '../views/SHOP001.vue';
+import DetailView from '../views/SHOP002.vue';
 
 Vue.use(VueRouter);
 

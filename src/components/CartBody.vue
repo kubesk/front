@@ -18,7 +18,7 @@ export default {
   components: {  },
   computed:{
       cartItems(){
-        return this.$store.state.dcx.cartList;
+        return this.$store.state.cartList;
       },
   },
   methods: {

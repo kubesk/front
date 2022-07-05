@@ -32,7 +32,7 @@
 export default {
     computed:{
         cartItems: function(){
-          return this.$store.state.dcx.cartList;
+          return this.$store.state.cartList;
         },
         totalCartItemPrice: function(){
           let sum = 0;

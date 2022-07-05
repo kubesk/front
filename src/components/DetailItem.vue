@@ -24,7 +24,7 @@
 export default {
     computed:{
         cartItem: function(){
-          return this.$store.state.dcx.cartItem;
+          return this.$store.state.cartItem;
         },
     },
 }
